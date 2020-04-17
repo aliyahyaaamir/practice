@@ -1,0 +1,18 @@
+    """
+    input: -A -B -BB +C -C -CC =CCC
+    output: order doesn't matter just find a hand
+    
+    objective: form a hand of 3 cards
+         
+         
+          form a hand of three cards that for each of three 
+          different properties are either all the same or all different.
+          
+    steps:
+        check across prefix (all same or all different)
+        check across letters (all same or all diff)
+        ""     ""     number    ""
+        
+        BA
+    
+    """
